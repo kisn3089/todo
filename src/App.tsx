@@ -1,10 +1,10 @@
+import Text from "components/atoms/Text";
 import React from "react";
-import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hi</h1>
+      <Text content="Hi" fontSize="22px" fontWeight="700" />
     </div>
   );
 }
