@@ -29,6 +29,7 @@ const Text = (props: IText) => {
       ...customStyle,
     };
   }, [color, padding, margin, opacity, fontSize, fontWeight, fontFamily]);
+
   return (
     <StyledText className={className} style={style} onClick={handleClick}>
       {content}

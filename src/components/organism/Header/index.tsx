@@ -5,10 +5,22 @@ const Header = () => {
   return (
     <HeaderWrapper>
       <Logo>
-        <Text content="ToDo" color="#fff" fontSize="32px" fontWeight="700" />
+        <Text
+          content="ToDo"
+          color="#F7BE3B"
+          fontSize="32px"
+          fontWeight="700"
+          fontFamily="Noto Sans KR"
+        />
       </Logo>
       <NavibarWrapper>
-        <Text content="List" color="#fff" fontSize="28px" fontWeight="700" />
+        <Text
+          content="List"
+          color="#F7BE3B"
+          fontSize="30px"
+          fontWeight="700"
+          fontFamily="Noto Sans KR"
+        />
       </NavibarWrapper>
     </HeaderWrapper>
   );

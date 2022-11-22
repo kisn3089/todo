@@ -7,7 +7,7 @@ export const HeaderWrapper = styled.div`
   align-items: center;
   width: 100%;
   height: 80px;
-  background-color: #000;
+  background-color: #202124;
   border-bottom: 1px solid #fff;
 `;
 
