@@ -1,8 +1,11 @@
+import DetailForm from "components/molecules/DetailForm";
+import { HomeBody } from "./styles";
+
 const HomeTemplate = () => {
   return (
-    <>
-      <h1>Hi</h1>
-    </>
+    <HomeBody>
+      <DetailForm />
+    </HomeBody>
   );
 };
 
